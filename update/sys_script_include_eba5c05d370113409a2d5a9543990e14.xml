@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_skatt_a_post.Post_AutoNumbering</api_name>
+        <client_callable>true</client_callable>
+        <description>Letar upp det högsta använda nummret för vald reception lägger till ett och returnerar detta nummer</description>
+        <name>Post_AutoNumbering</name>
+        <script><![CDATA[var Post_AutoNumbering = Class.create();
+Post_AutoNumbering.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+	
+	getNum : function() {
+		var count = '1';
+		var reception = this.getParameter('sysparm_reception');
+		var gr = new GlideRecord('x_skatt_a_post_posthantering');
+		gr.addQuery('u_reception',reception);
+		gr.orderByDesc('u_nummer_pa_forsandelsen');
+		gr.setLimit(1);
+		gr.query();
+		
+		if(gr.next())
+			{
+			if(gr.u_nummer_pa_forsandelsen != "")
+				{
+				var num = gr.u_nummer_pa_forsandelsen;
+				var res = num.substring(3);
+				var newnum = parseInt(count) + parseInt(num);
+				return newnum.toString();
+			} // END if(gr.u_nummer_pa_forsandelsen != "")
+			else
+				{
+				var incnewnum = '0';
+				return incnewnum;
+			} // END ELSE if(gr.u_nummer_pa_forsandelsen != "")
+		} // END if(gr.next())
+	}, // END getNum : function() {
+		
+		type: 'Post_AutoNumbering'
+	}); // END AutoNumbering.prototype = ...
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>fqqp</sys_created_by>
+        <sys_created_on>2018-03-23 13:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eba5c05d370113409a2d5a9543990e14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post_AutoNumbering</sys_name>
+        <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+        <sys_update_name>sys_script_include_eba5c05d370113409a2d5a9543990e14</sys_update_name>
+        <sys_updated_by>fqqp</sys_updated_by>
+        <sys_updated_on>2018-03-23 13:05:00</sys_updated_on>
+    </sys_script_include>
+</record_update>

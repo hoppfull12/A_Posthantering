@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_skatt_a_post.Post_GetContactEmailAdress</api_name>
+        <client_callable>true</client_callable>
+        <description>Script Include som returnerar kontorets kontaktpersons E-post adress.  Skriptet på klient sidan sänder med sys_id för aktuell anvädare.&#13;
+userRecord = aktuell användare&#13;
+userRecord.location = placeringsort&#13;
+userRecord.location.parent = kontor&#13;
+userRecord.location.parent,contact = kontaktperson för kontoret</description>
+        <name>Post_GetContactEmailAdress</name>
+        <script><![CDATA[var Post_GetContactEmailAdress = Class.create();
+Post_GetContactEmailAdress.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getEmail: function() {
+		var userRecord = new GlideRecord("sys_user");
+		userRecord.get(this.getParameter('sysparm_userID'));
+		return userRecord.location.parent.contact.email + '';
+	}, // END getEmail: function() {
+
+    type: 'Post_GetContactEmailAdress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>fqqp</sys_created_by>
+        <sys_created_on>2018-03-23 13:04:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0425005d370113409a2d5a9543990e7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post_GetContactEmailAdress</sys_name>
+        <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+        <sys_update_name>sys_script_include_0425005d370113409a2d5a9543990e7b</sys_update_name>
+        <sys_updated_by>fqqp</sys_updated_by>
+        <sys_updated_on>2018-03-23 13:04:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

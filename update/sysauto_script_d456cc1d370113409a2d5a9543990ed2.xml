@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>POST: Brev inte hämtats på 2 dygn</name>
+        <run_as display_value="Åke Nyman">d667abec4f72f640433ee3518110c7cd</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-03-23 13:07:47</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// Letar i databasen efter försändelser som inte har hämtats efter 2 dagar (48 timmar)
+var overduePost = new GlideRecord('x_skatt_a_post_posthantering'); 
+overduePost.addQuery('sys_created_on','<',gs.hoursAgo(48));
+overduePost.addQuery('u_status','CONTAINS','Nyinkommet'); 
+overduePost.query();
+
+// Skriv logg meddelande och skapar ett event för varje försändelse som inte har hämtats
+while(overduePost .next()){ 
+    gs.info("POST: Försändelse som inte har avhämtats på 2 dagar = " + overduePost.u_mottagare.name);
+gs.eventQueue('x_skatt_a_post.reminderFirst',overduePost,overduePost.number,overduePost.u_mottagare.name);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>fqqp</sys_created_by>
+        <sys_created_on>2018-03-23 13:09:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d456cc1d370113409a2d5a9543990ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST: Brev inte hämtats på 2 dygn</sys_name>
+        <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+        <sys_update_name>sysauto_script_d456cc1d370113409a2d5a9543990ed2</sys_update_name>
+        <sys_updated_by>fqqp</sys_updated_by>
+        <sys_updated_on>2018-03-23 13:09:47</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

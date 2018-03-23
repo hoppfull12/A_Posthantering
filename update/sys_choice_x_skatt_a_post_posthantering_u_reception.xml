@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_reception" table="x_skatt_a_post_posthantering" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reception</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_skatt_a_post_posthantering</name>
+            <sequence>0</sequence>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 12:59:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44644c1d370113409a2d5a9543990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 12:59:18</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reception</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_skatt_a_post_posthantering</name>
+            <sequence>1</sequence>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 12:59:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84644c1d370113409a2d5a9543990e4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 12:59:18</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reception</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_skatt_a_post_posthantering</name>
+            <sequence>2</sequence>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 12:59:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04644c1d370113409a2d5a9543990e4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 12:59:18</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_reception</element>
+            <name>x_skatt_a_post_posthantering</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 12:59:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>40644c1d370113409a2d5a9543990e4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_reception</sys_name>
+            <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+            <sys_update_name>sys_choice_x_skatt_a_post_posthantering_u_reception</sys_update_name>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 12:59:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

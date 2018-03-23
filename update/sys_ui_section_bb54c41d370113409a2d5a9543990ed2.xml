@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="New Section" section_id="bb54c41d370113409a2d5a9543990ed2" sys_domain="global" table="x_skatt_a_post_posthantering" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>0</position>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
+            <sys_id>18644c1d370113409a2d5a9543990e63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">bb54c41d370113409a2d5a9543990ed2</sys_ui_section>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_skatt_a_post_posthantering</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 12:59:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb54c41d370113409a2d5a9543990ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+            <sys_update_name>sys_ui_section_bb54c41d370113409a2d5a9543990ed2</sys_update_name>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 12:59:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
