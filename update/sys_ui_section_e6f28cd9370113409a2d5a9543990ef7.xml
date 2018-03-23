@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>c0644c1d370113409a2d5a9543990e5d</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>185d9099374113409a2d5a9543990e6e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>44644c1d370113409a2d5a9543990e5d</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>9c5d9099374113409a2d5a9543990e6e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>u_status</element>
             <position>2</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>c4644c1d370113409a2d5a9543990e5d</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>105d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>48644c1d370113409a2d5a9543990e5d</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>905d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>.begin_split</element>
             <position>4</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>c8644c1d370113409a2d5a9543990e5d</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>145d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_mottagare</element>
             <position>5</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>4c644c1d370113409a2d5a9543990e5d</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>945d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>u_reception</element>
             <position>6</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>cc644c1d370113409a2d5a9543990e5d</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>185d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>40644c1d370113409a2d5a9543990e5e</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>985d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>u_nummer_pa_forsandelsen</element>
             <position>8</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>c0644c1d370113409a2d5a9543990e5e</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>1c5d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,15 +131,43 @@
             <element>u_hamtad</element>
             <position>9</position>
             <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:19</sys_created_on>
-            <sys_id>44644c1d370113409a2d5a9543990e5e</sys_id>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>9c5d9099374113409a2d5a9543990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
             <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>105d9099374113409a2d5a9543990e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>11</position>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-03-23 14:48:16</sys_created_on>
+            <sys_id>905d9099374113409a2d5a9543990e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Automatisk posthantering" display_value="Automatisk posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">e6f28cd9370113409a2d5a9543990ef7</sys_ui_section>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-03-23 14:48:16</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Automatisk posthantering</caption>

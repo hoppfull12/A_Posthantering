@@ -16,7 +16,7 @@
         <script><![CDATA[// Letar i databasen efter försändelser som inte har hämtats efter 4 dagar
 var overduePost = new GlideRecord('x_skatt_a_post_posthantering'); 
 overduePost.addQuery('sys_created_on','<',gs.hoursAgo(96));
-overduePost.addQuery('u_status','CONTAINS','Påminnelse_1'); 
+overduePost.addQuery('u_status','Påminnelse_1'); 
 overduePost.query();
 
 // Skriv logg meddelande och skapar ett event för varje försändelse som inte har hämtats
@@ -30,7 +30,7 @@ gs.eventQueue('x_skatt_a_post.reminderSecond',overduePost,overduePost.number,ove
         <sys_created_on>2018-03-23 13:10:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>eef6ccd9370113409a2d5a9543990ea8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>POST: Brev inte hämtats på 4 dygn</sys_name>
         <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
         <sys_policy/>
@@ -38,7 +38,7 @@ gs.eventQueue('x_skatt_a_post.reminderSecond',overduePost,overduePost.number,ove
         <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
         <sys_update_name>sysauto_script_eef6ccd9370113409a2d5a9543990ea8</sys_update_name>
         <sys_updated_by>fqqp</sys_updated_by>
-        <sys_updated_on>2018-03-23 13:10:40</sys_updated_on>
+        <sys_updated_on>2018-03-23 16:28:57</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

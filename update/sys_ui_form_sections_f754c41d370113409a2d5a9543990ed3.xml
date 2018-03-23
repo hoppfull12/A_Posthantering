@@ -15,20 +15,6 @@
             <sys_updated_by>fqqp</sys_updated_by>
             <sys_updated_on>2018-03-23 12:59:17</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>fqqp</sys_created_by>
-            <sys_created_on>2018-03-23 12:59:17</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3f540c1d370113409a2d5a9543990efc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_skatt_a_post_posthantering" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">f754c41d370113409a2d5a9543990ed3</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_skatt_a_post_posthantering" sys_domain="global" view="Default view">bb54c41d370113409a2d5a9543990ed2</sys_ui_section>
-            <sys_updated_by>fqqp</sys_updated_by>
-            <sys_updated_on>2018-03-23 12:59:17</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_skatt_a_post_posthantering</name>
             <roles/>

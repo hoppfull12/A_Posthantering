@@ -5,14 +5,13 @@
         <element label="Posten hämtad" max_length="40" name="u_hamtad" read_only="true" type="glide_date_time"/>
         <element label="Mottagare av försändelsen" mandatory="true" max_length="32" name="u_mottagare" reference="sys_user" type="reference"/>
         <element label="Nummer på försändelsen" mandatory="true" max_length="40" name="u_nummer_pa_forsandelsen" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Reception" max_length="40" name="u_reception" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="receptionen.paronet@skatteverket.se" label="Reception" max_length="40" name="u_reception" type="string">
             <choice>
-                <element label="Choice 1" sequence="0" value="Choice 1"/>
-                <element label="Choice 2" sequence="1" value="Choice 2"/>
-                <element label="Choice 3" sequence="2" value="Choice 3"/>
+                <element label="Nöten" sequence="0" value="receptionen.noten@skatteverket.se"/>
+                <element label="Päronet" sequence="1" value="receptionen.paronet@skatteverket.se"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="Hämtat" label="Status" max_length="40" name="u_status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Nyinkommet" label="Status" max_length="40" name="u_status" type="string">
             <choice>
                 <element label="Nyinkommet" sequence="0" value="Nyinkommet"/>
                 <element label="Påminnelse 1" sequence="1" value="Påminnelse_1"/>
