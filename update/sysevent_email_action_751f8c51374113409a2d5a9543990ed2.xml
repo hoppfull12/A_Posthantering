@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Posthantering" name="Posthantering">aebe8c51374113409a2d5a9543990e7b</category>
+        <collection>x_skatt_a_post_posthantering</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_skatt_a_post.reminderFirst</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hej</p>
+<p>Enligt v&aring;ra noteringar har ni inte &auml;nnu h&auml;mtat er f&ouml;rs&auml;ndelse. Vi ber er d&auml;rf&ouml;r att skyndsamt h&auml;mta densamma. F&ouml;rs&auml;ndelsen h&auml;mtas vid receptionen ${u_reception}, innanf&ouml;r skalskyddet.</p>
+<p>F&ouml;r att du enklare ska hitta ditt brev har vi numrerat det och det har f&aring;tt nummer <strong>${u_nummer_pa_forsandelsen}</strong></p>
+<p><strong><em>N&auml;r du h&auml;mtat f&ouml;rs&auml;ndelsen var sn&auml;ll och returnera detta meddelande!</em></strong></p>
+<p>Ha en fortsatt trevlig dag!</p>
+<p>Med v&auml;nliga h&auml;lsningar</p>
+<p></p>
+<div class="ephox-sloth-bin ephox-sloth-bin_69408486011521812810226" style="left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; position: absolute; opacity: 0;" contenteditable="true">
+<table style="border: currentColor; border-collapse: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-table-layout-alt: fixed;" border="1" width="105%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;">
+<td style="padding: 0cm 5.4pt; border: 1pt solid windowtext; width: 81.86%; background-color: transparent; mso-border-alt: solid windowtext .5pt;" valign="top" width="81%">
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">Hej</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">&nbsp;</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">Enligt v&aring;ra noteringar har ni inte &auml;nnu h&auml;mtat er f&ouml;rs&auml;ndelse. Vi ber er d&auml;rf&ouml;r att skyndsamt h&auml;mta densamma. F&ouml;rs&auml;ndelsen h&auml;mtas vid receptionen ${u_reception}, innanf&ouml;r skalskyddet.</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">&nbsp;</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond;"><span style="font-size: medium;">F&ouml;r att du enklare ska hitta ditt brev har vi numrerat det och det har f&aring;tt nummer <strong style="mso-bidi-font-weight: normal;">${u_nummer_pa_forsandelsen}</strong></span></span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">&nbsp;</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><strong style="mso-bidi-font-weight: normal;"><em style="mso-bidi-font-style: normal;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">N&auml;r du h&auml;mtat f&ouml;rs&auml;ndelsen var sn&auml;ll och returnera detta meddelande!</span></span></em></strong></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">&nbsp;</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">Ha en fortsatt trevlig dag!</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">&nbsp;</span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">Med v&auml;nliga h&auml;lsningar </span></span></p>
+<p style="margin: 0cm 0cm 0pt;"><span style="mso-fareast-language: SV;"><span style="font-family: Garamond; font-size: medium;">Receptionen ${u_reception}</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+ </div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>POST: Påminnelse 1 om brev</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_mottagare</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Påminnelse! Post att hämta: nr ${u_nummer_pa_forsandelsen}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>fqqp</sys_created_by>
+        <sys_created_on>2018-03-23 13:46:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>751f8c51374113409a2d5a9543990ed2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>POST: Påminnelse 1 om brev</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+        <sys_update_name>sysevent_email_action_751f8c51374113409a2d5a9543990ed2</sys_update_name>
+        <sys_updated_by>fqqp</sys_updated_by>
+        <sys_updated_on>2018-03-23 13:50:07</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Posthantering" name="Posthantering">aebe8c51374113409a2d5a9543990e7b</category>
+        <collection>x_skatt_a_post_posthantering</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_skatt_a_post.reminderThird</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hej</p>
+<p>Trots tidigare p&aring;minnelser samt eskalering till chefen har f&ouml;rs&auml;ndelse till ( ${u_mottagare.name}) med l&ouml;pnummer <strong>${u_nummer_pa_forsandelsen}</strong> &auml;nnu inte h&auml;mtats.</p>
+<p>Nu &auml;r det dags att skicka f&ouml;rs&auml;ndelsen vidare till diariet.</p>
+<p><em><strong>F&ouml;r att bekr&auml;fta att f&ouml;rs&auml;ndelsen har tagits om hand returnera detta meddelande!</strong></em></p>
+<p>Ha en fortsatt trevlig dag!</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>POST: Receptionen att brev inte hämtats</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_mottagare,u_reception</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Eskalerat till receptionen! Post att hämta: nr ${u_nummer_pa_forsandelsen}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>fqqp</sys_created_by>
+        <sys_created_on>2018-03-23 13:52:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a1701451374113409a2d5a9543990eee</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>POST: Receptionen att brev inte hämtats</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+        <sys_update_name>sysevent_email_action_a1701451374113409a2d5a9543990eee</sys_update_name>
+        <sys_updated_by>fqqp</sys_updated_by>
+        <sys_updated_on>2018-03-23 13:57:48</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

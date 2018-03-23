@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Posthantering" name="Posthantering">aebe8c51374113409a2d5a9543990e7b</category>
+        <collection>x_skatt_a_post_posthantering</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_skatt_a_post.reminderSecond</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hej</p>
+<p>Trots tidigare p&aring;minnelse har er medarbetare ( <strong>${u_mottagare.name}</strong>) &auml;nnu inte h&auml;mtat f&ouml;rs&auml;ndelsen. Av den anledningen ombeds nu du, i egenskap av n&auml;rmaste chef, att skyndsamt &aring;tg&auml;rda detta. F&ouml;rs&auml;ndelsen h&auml;mtas vid receptionen ${u_reception}, innanf&ouml;r skalskyddet.</p>
+<p>F&ouml;r att du enklare ska hitta ditt brev har vi numrerat det och det har f&aring;tt nummer <strong>${u_nummer_pa_forsandelsen}</strong></p>
+<p>&nbsp;</p>
+<p><em><strong>N&auml;r du h&auml;mtat f&ouml;rs&auml;ndelsen var sn&auml;ll och returnera detta meddelande!</strong></em></p>
+<p>&nbsp;</p>
+<p>Ha en fortsatt trevlig dag!</p>
+<p>&nbsp;</p>
+<p>Med v&auml;nliga h&auml;lsningar</p>
+<p>Receptionen ${u_reception}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>POST: Påminnelse 2 om brev</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_mottagare</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Eskalerat mail! Post att hämta: nr ${u_nummer_pa_forsandelsen}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>fqqp</sys_created_by>
+        <sys_created_on>2018-03-23 13:55:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d319091374113409a2d5a9543990ef6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST: Påminnelse 2 om brev</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
+        <sys_update_name>sysevent_email_action_2d319091374113409a2d5a9543990ef6</sys_update_name>
+        <sys_updated_by>fqqp</sys_updated_by>
+        <sys_updated_on>2018-03-23 13:55:23</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
