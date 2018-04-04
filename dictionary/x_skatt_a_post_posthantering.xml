@@ -18,6 +18,7 @@
                 <element label="Påminnelse 2" sequence="2" value="Påminnelse_2"/>
                 <element label="Receptionen" sequence="3" value="Receptionen"/>
                 <element label="Hämtat" sequence="4" value="Hämtat"/>
+                <element label="Diariet" sequence="5" value="Diariet"/>
             </choice>
         </element>
         <index name="index">

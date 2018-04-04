@@ -48,16 +48,16 @@
         <sys_created_by>fqqp</sys_created_by>
         <sys_created_on>2018-03-23 12:59:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f3544c1d370113409a2d5a9543990e06</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>1ddfe0854f9d1340433ee3518110c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Reception</sys_name>
         <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
         <sys_update_name>sys_dictionary_x_skatt_a_post_posthantering_u_reception</sys_update_name>
-        <sys_updated_by>fqqp</sys_updated_by>
-        <sys_updated_on>2018-03-23 14:36:40</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-04 07:46:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -53,16 +53,16 @@
         <sys_created_by>fqqp</sys_created_by>
         <sys_created_on>2018-03-23 12:51:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>7292c8d9370113409a2d5a9543990e17</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>09dfe0854f9d1340433ee3518110c7e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_skatt_a_post_posthantering</sys_name>
         <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Posthantering">e6924c99370113409a2d5a9543990e70</sys_scope>
-        <sys_update_name>sys_dictionary_x_skatt_a_post_posthantering_null</sys_update_name>
-        <sys_updated_by>fqqp</sys_updated_by>
-        <sys_updated_on>2018-03-23 12:59:19</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_skatt_a_post_posthantering_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-04 07:46:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

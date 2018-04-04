@@ -153,6 +153,25 @@
             <sys_updated_on>2018-03-23 13:35:46</sys_updated_on>
             <value>Hämtat</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Diariet</label>
+            <language>en</language>
+            <name>x_skatt_a_post_posthantering</name>
+            <sequence>5</sequence>
+            <sys_created_by>fqqp</sys_created_by>
+            <sys_created_on>2018-04-04 07:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8f138894f9d1340433ee3518110c720</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fqqp</sys_updated_by>
+            <sys_updated_on>2018-04-04 07:55:35</sys_updated_on>
+            <value>Diariet</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_status</element>
             <name>x_skatt_a_post_posthantering</name>
@@ -160,7 +179,7 @@
             <sys_created_by>fqqp</sys_created_by>
             <sys_created_on>2018-03-23 12:59:18</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>08644c1d370113409a2d5a9543990e34</sys_id>
+            <sys_id>75df24854f9d1340433ee3518110c796</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_status</sys_name>
             <sys_package display_value="Posthantering" source="x_skatt_a_post">e6924c99370113409a2d5a9543990e70</sys_package>
